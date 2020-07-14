@@ -1,0 +1,38 @@
+.container{height:100%; width:100%; }
+body{font-family:"Comic Sans MS"; background-image:linear-gradient(to bottom right, #D4AAFF , #D47FFF , #D455FF , #D400FF);}
+.box{
+	margin:auto;
+	padding:30px;
+	height:500px;
+	width:300px;
+	border:2px solid #f2f2f2;
+    border-radius:.5em;
+	background-color:#f2f2f2;
+	}
+.box .login{text-align:center; margin:0}
+.box .us p, .box .pass p{ font-weight:bold;}
+.box .us input, .box .pass input { border:0; background:none;}
+hr { width:300px; text-align:center; margin:0;}
+.box .new, .box .new a { float:right; color:#000;  text-decoration:none;}
+.button{clear:both;}
+.box .button{ 
+    margin: 20px;
+    padding: 10px 100px;
+	border-radius:5em;
+    background-image:linear-gradient(to  left, #D4AAFF , #D47FFF , #D455FF , #D400FF);
+    border:none;
+    color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+}	
+.box .sign{ text-align:center;}
+.box ul { list-style:none;}
+.box ul li {float:left; margin:5px;}
+.img {margin-left:37px; }
+.account{clear:both;  margin-top:90px; text-align:center;}
+h5 a {text-decoration:none; color:#000;}
+h5 {text-align:center; }
+h5 a:hover, .box .new a:hover{color:#D400FF;}
+.box .button:hover{cursor:pointer; color:red;}
+
+
